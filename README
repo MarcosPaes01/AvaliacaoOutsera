@@ -1,0 +1,75 @@
+# Projeto Marcos Paes - Outsera
+Projeto demonstrativo de capacidade de processo seletivo para QA Automatizador da Outsera
+
+---
+
+## 📌 Índice
+
+- [Sobre o Projeto](#📝-sobre-o-projeto)
+- [Tecnologias Utilizadas](#💻-tecnologias-utilizadas)
+- [Pré-requisitos](#⚙️-pré-requisitos)
+- [Instalação](#📦-instalação)
+
+- [Testes]
+- [Testes de Carga (K6)](./k6-load-test/)
+
+- [Autor]
+
+---
+
+## 📝 Sobre o Projeto
+
+Projeto demonstrativo das seguintes ferramentas
+
+> Testes de carga automatizados de carga com K6.
+
+---
+
+## 💻 Tecnologias Utilizadas
+
+Liste as principais tecnologias/frameworks:
+
+- Java
+- K6 (testes de carga)
+- Maven 
+- [Outras...]
+
+---
+
+## ⚙️ Pré-requisitos
+
+- Node.js (se for usar K6 em npm (windows))
+- Brew (instala K6 para macOS)
+- K6 instalado 
+- IDE como IntelliJ ou VS Code()
+
+---
+
+## 📦 Instalação
+
+```bash
+# Clone o repositório
+git clone https://github.com/MarcosPaes01/AvaliacaoOutsera.git
+cd AvaliacaoOutsera
+
+
+# Instala Maven
+./mvnw install
+
+
+#Instala K6 (MacOS)
+brew install k6
+
+
+
+---
+
+##✏️ Autor
+
+Desenvolvido por **Marcos Paes**  
+📧 Contato: [marcospaes35@gmail.com]  
+🔗 GitHub: [https://github.com/MarcosPaes01](https://github.com/MarcosPaes01)
+
+© 2025 Marcos Paes. Todos os direitos reservados.
+
+
