@@ -32,6 +32,8 @@ Liste as principais tecnologias/frameworks:
 - Java
 - K6 (testes de carga)
 - Maven 
+- Appium  
+- TestNG
 - [Outras...]
 
 ---
@@ -42,7 +44,7 @@ Liste as principais tecnologias/frameworks:
 - Brew (instala K6 para macOS)
 - K6 instalado 
 - IDE como IntelliJ ou VS Code()
-
+- Appium instalado 
 ---
 
 ## 📦 Instalação
@@ -60,11 +62,12 @@ cd AvaliacaoOutsera
 #Instala K6 (MacOS)
 brew install k6
 
-
-
+#Instala Appium (MacOS)
+ npm install -g appium
+ 
 ---
 
-##✏️ Autor
+## 🧪 Autor
 
 Desenvolvido por **Marcos Paes**  
 📧 Contato: [marcospaes35@gmail.com]  
