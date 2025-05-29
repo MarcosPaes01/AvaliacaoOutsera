@@ -45,3 +45,9 @@ restassured-api-test/target/surefire-report/images/logos/build-by-maven-white.pn
 restassured-api-test/target/surefire-report/images/logos/maven-feather.png
 restassured-api-test/target/surefire-reports/ApiTestsTest.txt
 restassured-api-test/target/surefire-reports/TEST-ApiTestsTest.xml
+selenium-end2end-test/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+selenium-end2end-test/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+selenium-end2end-test/target/surefire/surefire_0-20250529014148689_2tmp
+selenium-end2end-test/target/surefire/surefire-20250529014148689_1tmp
+selenium-end2end-test/target/surefire-reports/2025-05-29T01-41-48_594-jvmRun1-commands.bin
+selenium-end2end-test/target/surefire-reports/2025-05-29T01-41-48_594-jvmRun1-events.bin
