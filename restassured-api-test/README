@@ -1,6 +1,7 @@
 # Testes de API com Rest Assured
 
-Este projeto contém testes automatizados de API utilizando **Rest Assured** e **JUnit 5**. Os testes validam a API (`https://jsonplaceholder.typicode.com`) realizando requisições dos tipos `GET`, `POST`, `PUT` e `DELETE`.
+Este projeto contém testes automatizados de API utilizando **Rest Assured** e **JUnit 5**. 
+Os testes validam a API Fake (`https://jsonplaceholder.typicode.com`) e faz requisições dos tipos `GET`, `POST`, `PUT` e `DELETE`.
 
 ## ✅ Funcionalidades
 
@@ -25,11 +26,12 @@ Este projeto contém testes automatizados de API utilizando **Rest Assured** e *
 ## ▶️ Como Executar
 
 mvn clean verify
+mvn surefire-report:report
 
-Relatório dos Testes de API
+# Relatório dos Testes de API
 Após a execução dos testes, um relatório em HTML será gerado automaticamente pelo plugin Surefire.
 
 📍 Acesse o relatório aqui:
 
-[Report dos testes de API](`./target/surefire-report/surefire-report.html`)
+[Report dos testes de API](./target/surefire-report/surefire-report.html)
 

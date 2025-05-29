@@ -11,7 +11,10 @@ Projeto demonstrativo de capacidade de processo seletivo para QA Automatizador d
 - [Instalação](#📦-instalação)
 
 - [Testes]
+- [Testes Mobile (Appium)](./appium-mobile-test/)
 - [Testes de Carga (K6)](./k6-load-test/)
+- [Testes de API (Rest Asssured)](./restassured-api-test/)
+
 
 - [Autor]
 
@@ -34,7 +37,7 @@ Liste as principais tecnologias/frameworks:
 - Maven 
 - Appium  
 - TestNG
-- [Outras...]
+- Rest Assured
 
 ---
 
@@ -49,7 +52,6 @@ Liste as principais tecnologias/frameworks:
 
 ## 📦 Instalação
 
-```bash
 # Clone o repositório
 git clone https://github.com/MarcosPaes01/AvaliacaoOutsera.git
 cd AvaliacaoOutsera
@@ -64,7 +66,7 @@ brew install k6
 
 #Instala Appium (MacOS)
  npm install -g appium
- 
+
 ---
 
 ## 🧪 Autor
@@ -73,6 +75,6 @@ Desenvolvido por **Marcos Paes**
 📧 Contato: [marcospaes35@gmail.com]  
 🔗 GitHub: [https://github.com/MarcosPaes01](https://github.com/MarcosPaes01)
 
-© 2025 Marcos Paes. Todos os direitos reservados.
+2025 Marcos Paes. Todos os direitos reservados.
 
 

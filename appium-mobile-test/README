@@ -15,13 +15,11 @@ Realizar teste funcional em app usando Java e Selenium
 
 - Para startar o appium (mandatório), use:
 
-```bash
 appium
 
 
 - Para executar o teste, use:
 
-```bash
 mvn test
 
 
