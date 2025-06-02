@@ -38,6 +38,8 @@ Liste as principais tecnologias/frameworks:
 - Appium  
 - TestNG
 - Rest Assured
+- Selenium Webdriver
+- Cucumber
 
 ---
 
@@ -66,6 +68,17 @@ brew install k6
 
 #Instala Appium (MacOS)
  npm install -g appium
+
+
+
+## 📝 Execução dos testes
+
+- [Importante]: Todos os projetos de teste usam Maven (exceto testes de carga), portanto verifique de que está no path correto antes de executar o comando para executar os testes:
+
+-> mvn clean test
+
+
+- Para os testes de carga, seguir README do projeto
 
 ---
 

@@ -51,3 +51,4 @@ selenium-end2end-test/target/surefire/surefire_0-20250529014148689_2tmp
 selenium-end2end-test/target/surefire/surefire-20250529014148689_1tmp
 selenium-end2end-test/target/surefire-reports/2025-05-29T01-41-48_594-jvmRun1-commands.bin
 selenium-end2end-test/target/surefire-reports/2025-05-29T01-41-48_594-jvmRun1-events.bin
+selenium-end2end-test/target/surefire-reports/TEST-runners.TestRunner.xml

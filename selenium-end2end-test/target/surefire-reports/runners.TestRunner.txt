@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.968 s <<< FAILURE! -- in runners.TestRunner
+Login e navegação para o formulário.Usuário faz login e navega até o formulário -- Time elapsed: 5.363 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+	at pages.LoggedAreaPage.isAt(LoggedAreaPage.java:19)
+	at steps.LoginStepsTest.ele_deve_ser_redirecionado_para_a_página_de_formulário(LoginStepsTest.java:37)
+	at ✽.ele deve ser redirecionado para a página de formulário(file:///Users/apple/repos/AvaliacaoOutsera/selenium-end2end-test/src/test/resources/features/Login.feature:6)
+
