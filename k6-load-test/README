@@ -6,6 +6,16 @@ Simular 500 usuários simultâneos por 5 minutos em uma API pública (http:jsonp
 
 ## 🧪 Como executar
 
-k6 run k6-load-test/scripts/test-api.js --out json=results/summary.json 
+- Certifique-se de que o path corresponde ao projeto
+cd k6-load-test
+
+- Execute o script em:
+k6 run scripts/test-api.js 
+
+- Verifique o report HTML
+[Report HTML](./summary.html)
+
+ - Se recomenda extremamente a abertura do report no browser
 
 
+ 
