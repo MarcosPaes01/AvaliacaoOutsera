@@ -1,7 +1,7 @@
 # Projeto de Teste de Carga com K6
 
 ## ✅ Objetivo
-Simular 500 usuários simultâneos por 5 minutos em uma API pública (`jsonplaceholder.typicode.com`).
+Simular 500 usuários simultâneos por 5 minutos em uma API pública (http:jsonplaceholder.typicode.com).
 
 
 ## 🧪 Como executar
