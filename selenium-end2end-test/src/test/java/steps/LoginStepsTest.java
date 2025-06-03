@@ -5,7 +5,6 @@ import io.cucumber.java.en.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-
 import pages.LoggedAreaPage;
 import pages.LoginPage;
 
@@ -19,8 +18,10 @@ public class LoginStepsTest {
 
     @Given("que o usuário está na página de login")
     public void que_o_usuário_está_na_página_de_login() {
-        Hooks   .get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-        loginPage = new LoginPage(Hooks.driver);
+        driver = new ChromeDriver();
+        driver.manage().window().maximize();
+        driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+        loginPage = new LoginPage(driver);
 
         //Garante que a pagina esta carregada
         loginPage.waitForPageToLoad();
@@ -35,6 +36,6 @@ public class LoginStepsTest {
     @Then("ele deve ser redirecionado para a página de formulário")
     public void ele_deve_ser_redirecionado_para_a_página_de_formulário() {
         assertTrue(loggedAreaPage.isAt());
-        Hooks.driver.quit();
+        driver.quit();
     }
 }
