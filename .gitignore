@@ -48,6 +48,9 @@ restassured-api-test/target/surefire-reports/TEST-ApiTestsTest.xml
 selenium-end2end-test/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
 selenium-end2end-test/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
 selenium-end2end-test/target/surefire-reports/TEST-runners.TestRunner.xml
+selenium-end2end-test/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+selenium-end2end-test/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+selenium-end2end-test/target/surefire-reports/TEST-runners.TestRunner.xml
 restassured-api-test/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
 restassured-api-test/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
 restassured-api-test/target/surefire-report/css/maven-base.css
