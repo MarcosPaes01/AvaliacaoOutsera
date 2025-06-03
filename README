@@ -1,0 +1,93 @@
+# Projeto Marcos Paes - Outsera
+Projeto demonstrativo de capacidade de processo seletivo para QA Automatizador da Outsera
+
+---
+
+## 📌 Índice
+
+- [Sobre o Projeto](#📝-sobre-o-projeto)
+- [Tecnologias Utilizadas](#💻-tecnologias-utilizadas)
+- [Pré-requisitos](#⚙️-pré-requisitos)
+- [Instalação](#📦-instalação)
+
+- [Testes]
+- [Testes Mobile (Appium)](./appium-mobile-test/)
+- [Testes de Carga (K6)](./k6-load-test/)
+- [Testes de API (Rest Asssured)](./restassured-api-test/)
+
+
+- [Autor]
+
+---
+
+## 📝 Sobre o Projeto
+
+Projeto demonstrativo das seguintes ferramentas
+
+> Testes de carga automatizados de carga com K6.
+
+---
+
+## 💻 Tecnologias Utilizadas
+
+Liste as principais tecnologias/frameworks:
+
+- Java
+- K6 (testes de carga)
+- Maven 
+- Appium  
+- TestNG
+- Rest Assured
+- Selenium Webdriver
+- Cucumber
+
+---
+
+## ⚙️ Pré-requisitos
+
+- Node.js (se for usar K6 em npm (windows))
+- Brew (instala K6 para macOS)
+- K6 instalado 
+- IDE como IntelliJ ou VS Code()
+- Appium instalado 
+---
+
+## 📦 Instalação
+
+# Clone o repositório
+git clone https://github.com/MarcosPaes01/AvaliacaoOutsera.git
+cd AvaliacaoOutsera
+
+
+# Instala Maven
+./mvnw install
+
+
+#Instala K6 (MacOS)
+brew install k6
+
+#Instala Appium (MacOS)
+ npm install -g appium
+
+
+
+## 📝 Execução dos testes
+
+- [Importante]: Todos os projetos de teste usam Maven (exceto testes de carga), portanto verifique de que está no path correto antes de executar o comando para executar os testes:
+
+-> mvn clean test
+
+
+- Para os testes de carga, seguir README do projeto
+
+---
+
+## 🧪 Autor
+
+Desenvolvido por **Marcos Paes**  
+📧 Contato: [marcospaes35@gmail.com]  
+🔗 GitHub: [https://github.com/MarcosPaes01](https://github.com/MarcosPaes01)
+
+2025 Marcos Paes. Todos os direitos reservados.
+
+

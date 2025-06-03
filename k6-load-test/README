@@ -1,0 +1,11 @@
+# Projeto de Teste de Carga com K6
+
+## ✅ Objetivo
+Simular 500 usuários simultâneos por 5 minutos em uma API pública (http:jsonplaceholder.typicode.com).
+
+
+## 🧪 Como executar
+
+k6 run k6-load-test/scripts/test-api.js --out json=results/summary.json 
+
+

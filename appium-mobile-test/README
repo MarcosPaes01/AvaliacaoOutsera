@@ -1,0 +1,25 @@
+# Projeto de Teste Mobile com Java + Selenium
+
+## ✅ Objetivo
+Realizar teste funcional em app usando Java e Selenium
+
+## 🧪 Pré requisitos
+ 
+ - Emulador do Android Studio configurado
+ - Maven instalado (vide README do projeto principal)
+ - Node e appium instalados 
+ 
+
+
+## 🧪 Como executar
+
+- Para startar o appium (mandatório), use:
+
+appium
+
+
+- Para executar o teste, use:
+
+mvn test
+
+
