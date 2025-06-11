@@ -20,6 +20,6 @@ appium
 
 - Para executar o teste, use:
 
-mvn test
+mvn clean test
 
 

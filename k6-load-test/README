@@ -17,5 +17,76 @@ k6 run scripts/test-api.js
 
  - Se recomenda extremamente a abertura do report no browser
 
-
+## 🧪 Sumãrio resumo dos testes
  
+- 1. POST – Criação de recurso
+Objetivo: Criar um novo post via POST /posts
+
+Ação: Envia payload com title, body e userId (dados aleatórios)
+
+Validações:
+
+Status code 201 Created
+
+Corpo da resposta contém um id válido
+
+- 2. GET – Leitura do recurso criado
+Objetivo: Verificar se o recurso recém-criado está disponível
+
+Ação: GET /posts/{id}
+
+Validações:
+
+Status code 200 OK
+
+Corpo da resposta contém o title previamente enviado
+
+- 3. PUT – Atualização do recurso
+Objetivo: Atualizar o conteúdo do post criado
+
+Ação: PUT /posts/{id} com dados atualizados
+
+Validações:
+
+Status code 200 OK
+
+Corpo da resposta contém title atualizado
+
+- 4. DELETE – Exclusão do recurso
+Objetivo: Remover o recurso do sistema
+
+Ação: DELETE /posts/{id}
+
+Validações:
+
+Status code 200 OK
+
+- 5. NEGATIVO: GET em ID inexistente
+Objetivo: Validar comportamento ao buscar recurso inválido
+
+Ação: GET /posts/999999 (ID que não existe)
+
+Validações:
+
+Status code 404 Not Found (ou 200 com {} se for API fake)
+
+- 6. NEGATIVO: DELETE de recurso já deletado
+Objetivo: Verificar como a API lida com múltiplas exclusões do mesmo recurso
+
+Ação: Segunda chamada de DELETE no mesmo ID
+
+Validações:
+
+Status code 200 OK (API fake não retorna erro, mas ignora)
+
+- 7. NEGATIVO: POST com payload vazio
+Objetivo: Simular envio de dados inválidos
+
+Ação: POST /posts com corpo vazio ('')
+
+Validações:
+
+Esperado: status 400 Bad Request (em API real)
+
+Aceito: status 201 Created (API fake não vãlida)
+

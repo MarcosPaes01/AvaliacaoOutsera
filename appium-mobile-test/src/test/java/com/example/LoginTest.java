@@ -26,8 +26,17 @@ public class LoginTest {
 
     @Test
     public void testLoginAndNavigate() throws InterruptedException {
+        // Aguarda o app carregar
+        Thread.sleep(3000);
 
+        // Aguarda a próxima tela carregar
+        Thread.sleep(3000);
+
+        // Verifica se foi redirecionado para a tela inicial
+        MobileElement homeTitle = driver.findElementById("com.seuapp.package:id/home_title");
+        assert(homeTitle.isDisplayed());
     }
+
 
     @AfterClass
     public void tearDown() {
