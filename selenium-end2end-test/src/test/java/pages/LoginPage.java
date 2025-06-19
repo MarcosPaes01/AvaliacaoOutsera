@@ -7,15 +7,16 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-
 public class LoginPage {
-    WebDriver driver;
+    private WebDriver driver;
 
-    By usernameField = By.name("username");
-    By passwordField = By.name("password");
-    By loginButton = By.xpath("//button[contains(.,'Login')]");
-    
+    // Todos os elementos são privados
+    private By usernameField = By.name("username");
+    private By passwordField = By.name("password");
+    private By loginButton = By.xpath("//button[contains(.,'Login')]");
     private By loginTitle = By.xpath("//h5[text()='Login']");
+
+    public static final String LOGIN_URL = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
 
     public LoginPage(WebDriver driver) {
         this.driver = driver;
@@ -26,7 +27,8 @@ public class LoginPage {
         driver.findElement(passwordField).sendKeys(password);
         driver.findElement(loginButton).click();
     }
-        public void waitForPageToLoad() {
+
+    public void waitForPageToLoad() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOfElementLocated(loginTitle));
     }

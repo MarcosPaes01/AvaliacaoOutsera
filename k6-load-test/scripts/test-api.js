@@ -33,7 +33,7 @@ export default function () {
   });
 
   // 3. POST com dados randômicos
-  const randomName = `User_${Math.random().toString(36).substring(7)}`;
+  const randomName   = `User_${Math.random().toString(36).substring(7)}`;
   const randomJob = `Job_${Math.random().toString(36).substring(7)}`;
   let postRes = http.post('https://reqres.in/api/users', JSON.stringify({
     name: randomName,

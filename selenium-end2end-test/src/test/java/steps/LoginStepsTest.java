@@ -11,20 +11,22 @@ import pages.LoginPage;
 import static org.junit.Assert.assertTrue;
 
 public class LoginStepsTest {
-
     WebDriver driver;
     LoginPage loginPage;
     LoggedAreaPage loggedAreaPage;
+    public static final String LOGIN_URL = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
 
     @Given("que o usuário está na página de login")
     public void que_o_usuário_está_na_página_de_login() {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+        driver.get(LOGIN_URL);
         loginPage = new LoginPage(driver);
 
         //Garante que a pagina esta carregada
         loginPage.waitForPageToLoad();
+        assertTrue(loginPage.isAt()); // Garante que está na página de login
+
     }
 
     @When("ele preenche as credenciais válidas e entra")
